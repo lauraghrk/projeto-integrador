@@ -36,7 +36,7 @@ public class Professor extends PessoaFisica {
             pw.print("Data de nascimento: " + this.getDataNascimento() + " - ");
             pw.print("Matrícula: " + this.getMatricula() + " - ");
             pw.print("Departamento: " + this.getDepartamento() + " - ");
-            pw.print("Salário: " + this.getSalario() + " - ");
+            pw.print("Salário: " + this.getSalario());
             pw.flush();
             pw.close();
             fw.close();
